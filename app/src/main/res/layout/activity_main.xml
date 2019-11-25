@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/Name"
+        android:hint="Enter Name"
+        style="@style/Basics"
+        />
+    <TextView
+        style="@style/Basics"
+        android:text="Select Your country"/>
+    <Spinner
+        android:id="@+id/Spnr"
+        style="@style/Basics"/>
+    <AutoCompleteTextView
+        android:id="@+id/actvBatch"
+        android:hint="Select Batch"
+        style="@style/Basics"/>
+    <Button
+        style="@style/Basics"
+        android:id="@+id/btnSave"
+        android:text="Save"/>
+    <TextView
+        android:id="@+id/tvResult"
+        style="@style/Basics"/>
+
+
+
+
+
+
+
+
+
+</LinearLayout>
